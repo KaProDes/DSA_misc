@@ -110,6 +110,104 @@ int dec2oct(int decNum) {
   return octNum;
 }
 
+//[*]Decimal to Hexadecimal function
+
+string dec2hex(int decNum) {
+  int multiplier = 1;
+  while (multiplier <= decNum) {
+    multiplier *= 16;
+  }
+  multiplier /= 16;
+
+  int i = multiplier;
+  string hexNum = "";
+  while (multiplier) {
+    int digit = decNum / multiplier;
+    if (digit >= 10 && digit <= 15) {
+      hexNum += (char)(digit + 55);
+    } else {
+      hexNum += (char)(digit + 48);
+    }
+    decNum -= digit * multiplier;
+    multiplier /= 16;
+  }
+  return hexNum;
+}
+
+// reversing a string
+
+string revString(string str) {
+  int n = 0;
+  while (str[n] != '\0') {
+    n++;
+  }
+  for (int i = 0; i < n / 2; ++i) {
+    swap(str[i], str[n - i - 1]);
+  }
+  return str;
+}
+
+//[*] adding two binary numbers
+
+string addBinary(int a, int b) {
+  string res = "";
+  int prevCarry = 0;
+  while (a != 0 && b != 0) {
+    if (a % 2 == 0 && b % 2 == 0) {
+      res = res + to_string(prevCarry);
+    }
+    if ((a % 2 == 0 && b % 2 == 1) || (b % 2 == 0 && a % 2 == 1)) {
+      if (prevCarry == 1) {
+        res = res + to_string(0);
+        prevCarry = 1;
+      } else {
+        res = res + to_string(1);
+        prevCarry = 0;
+      }
+    }
+    if (a % 2 == 1 && b % 2 == 1) {
+      res = res + to_string(prevCarry);
+      prevCarry = 1;
+    }
+    a /= 10;
+    b /= 10;
+  }
+  while (a > 0) {
+    if (prevCarry == 1) {
+      if (a % 2 == 1) {
+        res = res + to_string(0);
+        prevCarry = 1;
+      } else {
+        res = res + to_string(1);
+        prevCarry = 0;
+      }
+    } else {
+      res = res + to_string(a % 2);
+    }
+    a /= 10;
+  }
+
+  while (b > 0) {
+    if (prevCarry == 1) {
+      if (b % 2 == 1) {
+        res = res + to_string(0);
+        prevCarry = 1;
+      } else {
+        res = res + to_string(1);
+        prevCarry = 0;
+      }
+    } else {
+      res = res + to_string(b % 2);
+    }
+    b /= 10;
+  }
+
+  if (prevCarry == 1) {
+    res = res + to_string(1);
+  }
+  return revString(res);
+}
+
 int main() {
 #ifndef ONLINE_JUDGE
   freopen("input.txt", "r", stdin);
@@ -172,4 +270,19 @@ int main() {
 
   cout << "The octal equivalent of " << decNum << " is " << dec2oct(decNum)
        << endl;
+
+  // Decimal to Hexadecimal Handler
+
+  cout << "Enter a decimal Number : ";
+  cin >> decNum;
+  cout << "The octal equivalent of " << decNum << " is " << dec2hex(decNum)
+       << endl;
+
+  // Adding binary numbers
+
+  cout << "Enter two binary numbers : ";
+  cin >> a >> b;
+  cout << addBinary(a, b) << endl;
+
+  return 0;
 }
