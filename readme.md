@@ -1,4 +1,10 @@
-# **<font color="darkcyan">DSA</font>**
+<h1>
+  <p align="center">
+  <b>🔗 DSA 📈</b>
+  <br><br>
+  <img src="./assets/banner.gif" width="50%">
+  </p>
+</h1>
 
 | <font color="yellowgreen">Sr</font> | <font color="magenta">Filename</font> | <font color="cyan">Title</font>       | <font color="pink">Notes</font>                        |
 | ----------------------------------- | ------------------------------------- | ------------------------------------- | ------------------------------------------------------ |
