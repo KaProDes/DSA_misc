@@ -24,3 +24,13 @@
 | 14                                  | 6-3_advancedFunctionChallenge.cpp     | Function Challenges                   | Number systems conversion[*]                           |
 | 15                                  | 7-1_timeSpaceComplexity.cpp           | Time Complexity                       | No Code, just good refresher theory                    |
 | 16                                  | 8-1_introToArrays.cpp                 | Intro to Arrays                       | Some basic operations on arrays                        |
+| 17                                  | 8-2_linearBinaryArraySearch.cpp       | Searching in Arrays                   | Linear and Binary Search Algos                         |
+| 18                                  | 8-3-1_selectionSort.cpp               | Selection Sort                        | Selection Sort Implementation                          |
+
+### Additional Notes :
+
+[+] For _passing array to function by value_ see 8.2
+
+[+] For _passing array to function by reference_ see 8.3.1
+
+[+] We tend to make mistakes in something as simple as Selection Sort
