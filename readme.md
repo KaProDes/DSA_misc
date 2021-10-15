@@ -22,3 +22,4 @@
 | 12                                  | 6-1_functions.cpp                     | Intro to functions and call stack     | Little code, more theory                               |
 | 13                                  | 6-2_functionChallenge.cpp             | Pascal Tri, Binomial Coeff, Factorial | Function challenge                                     |
 | 14                                  | 6-3_advancedFunctionChallenge.cpp     | Function Challenges                   | Number systems conversion[*]                           |
+| 15                                  | 7-1_timeSpaceComplexity.cpp           | Time Complexity                       | No Code, just good refresher theory                    |
