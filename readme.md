@@ -23,3 +23,4 @@
 | 13                                  | 6-2_functionChallenge.cpp             | Pascal Tri, Binomial Coeff, Factorial | Function challenge                                     |
 | 14                                  | 6-3_advancedFunctionChallenge.cpp     | Function Challenges                   | Number systems conversion[*]                           |
 | 15                                  | 7-1_timeSpaceComplexity.cpp           | Time Complexity                       | No Code, just good refresher theory                    |
+| 16                                  | 8-1_introToArrays.cpp                 | Intro to Arrays                       | Some basic operations on arrays                        |
