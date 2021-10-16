@@ -6,7 +6,7 @@ using namespace std;
 
 void selectionSort(int *arr, int n) {
   for (int i = 0; i < n - 1; ++i) {
-    int minInd = i; // [*]init with i not i+1
+    int minInd = i; // [*]init with i and not i+1
     for (int j = i + 1; j <= n - 1; ++j) {
       if (arr[j] < arr[minInd]) {
         minInd = j;

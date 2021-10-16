@@ -26,6 +26,7 @@
 | 16                                  | 8-1_introToArrays.cpp                 | Intro to Arrays                       | Some basic operations on arrays                        |
 | 17                                  | 8-2_linearBinaryArraySearch.cpp       | Searching in Arrays                   | Linear and Binary Search Algos                         |
 | 18                                  | 8-3-1_selectionSort.cpp               | Selection Sort                        | Selection Sort Implementation                          |
+| 19                                  | 8-3-2_bubbleSort.cpp                  | Bubble Sort                           | The worst kind of sort (too many iterations)           |
 
 ### Additional Notes :
 
