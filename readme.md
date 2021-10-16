@@ -28,6 +28,7 @@
 | 18                                  | 8-3-1_selectionSort.cpp               | Selection Sort                        | Selection Sort Implementation                          |
 | 19                                  | 8-3-2_bubbleSort.cpp                  | Bubble Sort                           | The worst kind of sort (too many iterations)           |
 | 20                                  | 8-3-3_insertionSort.cpp               | Insertion Sort                        | CLRS style implementation                              |
+| 21                                  | 8-4_arrayChallenges.cpp               | Array Challenges                      | Problems on Subarrays                                  |
 
 ### Additional Notes :
 
@@ -36,3 +37,9 @@
 [+] For _passing array to function by reference_ see 8.3.1
 
 [+] We tend to make mistakes in something as simple as Selection Sort
+
+[+] For subarrays of a given array see 8.4 (Great resource + Google Kickstart)
+
+### Todo :
+
+[+] Add the input.txt dump to most (if not all) code files after main() before 8.4
