@@ -27,6 +27,7 @@
 | 17                                  | 8-2_linearBinaryArraySearch.cpp       | Searching in Arrays                   | Linear and Binary Search Algos                         |
 | 18                                  | 8-3-1_selectionSort.cpp               | Selection Sort                        | Selection Sort Implementation                          |
 | 19                                  | 8-3-2_bubbleSort.cpp                  | Bubble Sort                           | The worst kind of sort (too many iterations)           |
+| 20                                  | 8-3-3_insertionSort.cpp               | Insertion Sort                        | CLRS style implementation                              |
 
 ### Additional Notes :
 
