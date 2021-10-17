@@ -43,3 +43,5 @@
 ### Todo :
 
 [+] Add the input.txt dump to most (if not all) code files after main() before 8.4
+
+[+] <del>Add .gitignore to exclude .exe files you lazy doorknob!</del>
