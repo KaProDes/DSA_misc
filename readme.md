@@ -29,6 +29,7 @@
 | 19                                  | 8-3-2_bubbleSort.cpp                  | Bubble Sort                           | The worst kind of sort (too many iterations)           |
 | 20                                  | 8-3-3_insertionSort.cpp               | Insertion Sort                        | CLRS style implementation                              |
 | 21                                  | 8-4_arrayChallenges.cpp               | Array Challenges                      | Problems on Subarrays                                  |
+| 22                                  | 8-5_arrayQuestions.cpp                | Questions on Arrays                   | Some are unsolved                                      |
 
 ### Additional Notes :
 
@@ -40,8 +41,14 @@
 
 [+] For subarrays of a given array see 8.4 (Great resource + Google Kickstart)
 
+[+] Questions/Code of 8.5 are still unsolved and incorrect (first repeating,subarray sum\[optimal])
+
 ### Todo :
 
 [+] Add the input.txt dump to most (if not all) code files after main() before 8.4
 
 [+] <del>Add .gitignore to exclude .exe files you lazy doorknob!</del>
+
+### Issues :
+
+[+] 8.5
