@@ -30,7 +30,7 @@
 | 20                                  | 8-3-3_insertionSort.cpp               | Insertion Sort                        | CLRS style implementation                              |
 | 21                                  | 8-4_arrayChallenges.cpp               | Array Challenges                      | Problems on Subarrays                                  |
 | 22                                  | 8-5_arrayQuestions.cpp                | Questions on Arrays                   | Some are unsolved                                      |
-| 23                                  | 8-6_subarrayChallenge.cpp             | Subarray Challenge                    |
+| 23                                  | 8-6_subarrayChallenge.cpp             | Subarray Challenge                    | Several Good Subarray problems                         |
 
 ### Additional Notes :
 

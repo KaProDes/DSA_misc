@@ -116,11 +116,13 @@ void maxCircularSubarraySum(int *arr, int n) {
   cout << "Max Circular subarray sum : " << max(nonWrapSum, wrapSum) << endl;
 }
 
+// Brute : function to check pairSum
+
 bool pairSum(int arr[], int k, int n) {
   for (int i = 0; i < n; ++i) {
     for (int j = i + 1; j < n; ++j) {
       if (arr[i] + arr[j] == k) {
-        printf("a[%d]+a[%d] = %d\n", i, j, k);
+        printf("Brute : a[%d]+a[%d] = %d\n", i, j, k);
         return true;
       }
     }
@@ -128,7 +130,23 @@ bool pairSum(int arr[], int k, int n) {
   return false;
 }
 
-// function to check pairSum
+// Optimal : function to check pairSum -- array must be sorted
+
+bool pairSumOptimal(int arr[], int k, int n) {
+  int i = 0, j = n - 1;
+  int sum;
+  while (i < j) {
+    sum = arr[i] + arr[j];
+    if (sum == k) {
+      printf("Optimal : a[%d]+a[%d] = %d\n", i, j, k);
+      return true;
+    } else if (sum < k)
+      i++;
+    else if (sum > k)
+      j--;
+  }
+  return false;
+}
 
 int main() {
 #ifndef ONLINE_JUDGE
@@ -205,10 +223,13 @@ int main() {
     else false
   */
 
-  int crr[] = {2, 4, 7, 1, 14, 16, 20, 21};
+  int crr[] = {2, 4, 7, 11, 14, 16, 20, 21};
   n = 8;
-  int k = 21;
+  int k = 31;
   cout << pairSum(crr, k, n) << endl;
+
+  // Optimal approach (Array must be sorted for this to work)
+  cout << pairSumOptimal(crr, k, n) << endl;
 
   return 0;
 }
