@@ -30,6 +30,7 @@
 | 20                                  | 8-3-3_insertionSort.cpp               | Insertion Sort                        | CLRS style implementation                              |
 | 21                                  | 8-4_arrayChallenges.cpp               | Array Challenges                      | Problems on Subarrays                                  |
 | 22                                  | 8-5_arrayQuestions.cpp                | Questions on Arrays                   | Some are unsolved                                      |
+| 23                                  | 8-6_subarrayChallenge.cpp             | Subarray Challenge                    |
 
 ### Additional Notes :
 
@@ -43,6 +44,8 @@
 
 [+] Questions/Code of 8.5 are still unsolved and incorrect (first repeating,subarray sum\[optimal])
 
+[+] 8.6 has several good subarray based problems
+
 ### Todo :
 
 [+] Add the input.txt dump to most (if not all) code files after main() before 8.4
@@ -52,3 +55,4 @@
 ### Issues :
 
 [+] 8.5
+[+] 8.6
