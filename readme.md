@@ -37,6 +37,7 @@
 | 27                                  | x11_pointers.cpp                      | Pointers in C++                       | An overview of pointers, ptr arrays, etc               |
 | 28                                  | x12_stackHeapMemory.cpp               | Stack and Heap Memory                 | Overview of dynamic memory allocation                  |
 | 29                                  | x13_stringsIntro.cpp                  | Strings Intro                         | Intro to strings and string operations                 |
+| 30                                  | x13-2_stringChallenge.cpp             | String challenges                     | Uppercase,Frequency,SortDecString                      |
 
 ### Additional Notes :
 
