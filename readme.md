@@ -32,6 +32,7 @@
 | 22                                  | 8-5_arrayQuestions.cpp                | Questions on Arrays                   | Some are unsolved                                      |
 | 23                                  | 8-6_subarrayChallenge.cpp             | Subarray Challenge                    | Several Good Subarray problems                         |
 | 24                                  | 9-1_TwoDimensionalArrays.cpp          | 2D arrays Intro                       | I/O, search, spiral traversal                          |
+| 25                                  | 9-2_twoDArrayChallenges.cpp           | 2D array challenges                   | Transpose, matrix Multiplication, search               |
 
 ### Additional Notes :
 
@@ -47,11 +48,15 @@
 
 [+] 8.6 has several good subarray based problems
 
+[+] 9.2 has transpose, matrix multiplication, sortedMatrix searcg
+
 ### Todo :
 
 [+] Add the input.txt dump to most (if not all) code files after main() before 8.4
 
 [+] <del>Add .gitignore to exclude .exe files you lazy doorknob!</del>
+
+[+] Learn how to pass 2D array by reference/value to a function
 
 ### Issues :
 
