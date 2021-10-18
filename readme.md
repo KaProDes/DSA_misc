@@ -31,6 +31,7 @@
 | 21                                  | 8-4_arrayChallenges.cpp               | Array Challenges                      | Problems on Subarrays                                  |
 | 22                                  | 8-5_arrayQuestions.cpp                | Questions on Arrays                   | Some are unsolved                                      |
 | 23                                  | 8-6_subarrayChallenge.cpp             | Subarray Challenge                    | Several Good Subarray problems                         |
+| 24                                  | 9-1_TwoDimensionalArrays.cpp          | 2D arrays Intro                       | I/O, search, spiral traversal                          |
 
 ### Additional Notes :
 
