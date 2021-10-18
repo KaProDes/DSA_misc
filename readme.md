@@ -33,6 +33,7 @@
 | 23                                  | 8-6_subarrayChallenge.cpp             | Subarray Challenge                    | Several Good Subarray problems                         |
 | 24                                  | 9-1_TwoDimensionalArrays.cpp          | 2D arrays Intro                       | I/O, search, spiral traversal                          |
 | 25                                  | 9-2_twoDArrayChallenges.cpp           | 2D array challenges                   | Transpose, matrix Multiplication, search               |
+| 26                                  | 10_charArray.cpp                      | Character Arrays                      | Pallindrome, Longest word, etc                         |
 
 ### Additional Notes :
 
@@ -48,7 +49,7 @@
 
 [+] 8.6 has several good subarray based problems
 
-[+] 9.2 has transpose, matrix multiplication, sortedMatrix searcg
+[+] 9.2 has transpose, matrix multiplication, sortedMatrix search
 
 ### Todo :
 
@@ -61,4 +62,5 @@
 ### Issues :
 
 [+] 8.5
+
 [+] 8.6
