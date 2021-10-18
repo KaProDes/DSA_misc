@@ -35,6 +35,8 @@
 | 25                                  | 9-2_twoDArrayChallenges.cpp           | 2D array challenges                   | Transpose, matrix Multiplication, search               |
 | 26                                  | x10_charArray.cpp                     | Character Arrays                      | Pallindrome, Longest word, etc                         |
 | 27                                  | x11_pointers.cpp                      | Pointers in C++                       | An overview of pointers, ptr arrays, etc               |
+| 28                                  | x12_stackHeapMemory.cpp               | Stack and Heap Memory                 | Overview of dynamic memory allocation                  |
+| 29                                  | x13_stringsIntro.cpp                  | Strings Intro                         | Intro to strings and string operations                 |
 
 ### Additional Notes :
 
@@ -53,6 +55,8 @@
 [+] 9.2 has transpose, matrix multiplication, sortedMatrix search
 
 [+] 11 is all about _pointers_
+
+[+] 13 contains a lot of inbuild _string_ functions. Please try to implement those functions by hand in C like paradigm
 
 ### Todo :
 
