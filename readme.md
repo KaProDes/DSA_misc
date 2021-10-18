@@ -33,12 +33,8 @@
 | 23                                  | 8-6_subarrayChallenge.cpp             | Subarray Challenge                    | Several Good Subarray problems                         |
 | 24                                  | 9-1_TwoDimensionalArrays.cpp          | 2D arrays Intro                       | I/O, search, spiral traversal                          |
 | 25                                  | 9-2_twoDArrayChallenges.cpp           | 2D array challenges                   | Transpose, matrix Multiplication, search               |
-<<<<<<< HEAD
 | 26                                  | x10_charArray.cpp                     | Character Arrays                      | Pallindrome, Longest word, etc                         |
 | 27                                  | x11_pointers.cpp                      | Pointers in C++                       | An overview of pointers, ptr arrays, etc               |
-=======
-| 26                                  | 10_charArray.cpp                      | Character Arrays                      | Pallindrome, Longest word, etc                         |
->>>>>>> 92ec7e7dcdfe6778b439a0ee84a1543aa0020258
 
 ### Additional Notes :
 
@@ -56,11 +52,8 @@
 
 [+] 9.2 has transpose, matrix multiplication, sortedMatrix search
 
-<<<<<<< HEAD
 [+] 11 is all about _pointers_
 
-=======
->>>>>>> 92ec7e7dcdfe6778b439a0ee84a1543aa0020258
 ### Todo :
 
 [+] Add the input.txt dump to most (if not all) code files after main() before 8.4
