@@ -39,6 +39,8 @@
 | 29                                  | x13_stringsIntro.cpp                  | Strings Intro                         | Intro to strings and string operations                 |
 | 30                                  | x13-2_stringChallenge.cpp             | String challenges                     | Uppercase,Frequency,SortDecString                      |
 | 31                                  | x14-1_bitManipulation.cpp             | Bit Manipulation                      | Get, set, reset(clear) and update given bit            |
+| 32                                  | x14-2_bitManipulationChallenges.cpp   | Bit Manipulation Challenges -1        | check Power 2, no of set bits, print all subsets       |
+| 33                                  | x14-3_bitManipulationChallenges2.cpp  | Bit Manipulation Challenges -2        | XOR property uniqueness finding in array               |
 
 ### Additional Notes :
 
@@ -59,6 +61,8 @@
 [+] 11 is all about _pointers_
 
 [+] 13 contains a lot of inbuild _string_ functions. Please try to implement those functions by hand in C like paradigm
+
+[+] 14 series has great questions on _Bit manipulation_. THey are worth going through meticulously
 
 ### Todo :
 
