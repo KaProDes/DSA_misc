@@ -1,3 +1,0 @@
-stringWithNoSpaces
-This is an entire sentence
-Shrek
