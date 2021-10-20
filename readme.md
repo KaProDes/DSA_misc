@@ -41,6 +41,7 @@
 | 31                                  | x14-1_bitManipulation.cpp             | Bit Manipulation                      | Get, set, reset(clear) and update given bit            |
 | 32                                  | x14-2_bitManipulationChallenges.cpp   | Bit Manipulation Challenges -1        | check Power 2, no of set bits, print all subsets       |
 | 33                                  | x14-3_bitManipulationChallenges2.cpp  | Bit Manipulation Challenges -2        | XOR property uniqueness finding in array               |
+| 34                                  | x15-1_sieveOfEratosthenes.cpp         | Sieve of Eratosthenes                 | Primes in range and Prime factors using sieve          |
 
 ### Additional Notes :
 
