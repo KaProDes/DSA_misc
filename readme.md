@@ -42,6 +42,7 @@
 | 32                                  | x14-2_bitManipulationChallenges.cpp   | Bit Manipulation Challenges -1        | check Power 2, no of set bits, print all subsets       |
 | 33                                  | x14-3_bitManipulationChallenges2.cpp  | Bit Manipulation Challenges -2        | XOR property uniqueness finding in array               |
 | 34                                  | x15-1_sieveOfEratosthenes.cpp         | Sieve of Eratosthenes                 | Primes in range and Prime factors using sieve          |
+| 35                                  | x15-2_inclusionExclusion.cpp          | Inclusion Exclusion                   | Divisibility IncExcl, Euclid's GCD method              |
 
 ### Additional Notes :
 
@@ -63,7 +64,9 @@
 
 [+] 13 contains a lot of inbuild _string_ functions. Please try to implement those functions by hand in C like paradigm
 
-[+] 14 series has great questions on _Bit manipulation_. THey are worth going through meticulously
+[+] 14 series has great questions on _Bit manipulation_. They are worth going through meticulously
+
+[+] 15.1 has great prime factorization technique via sieve of Eratosthenes
 
 ### Todo :
 
@@ -72,6 +75,8 @@
 [+] <del>Add .gitignore to exclude .exe files you lazy doorknob!</del>
 
 [+] Learn how to pass 2D array by reference/value to a function
+
+[+] Refer 15.2 for GCD algo. Try to implement Prime factorization based algo for the same (Hint : 15.1)
 
 ### Issues :
 
