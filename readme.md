@@ -43,6 +43,7 @@
 | 33                                  | x14-3_bitManipulationChallenges2.cpp  | Bit Manipulation Challenges -2        | XOR property uniqueness finding in array               |
 | 34                                  | x15-1_sieveOfEratosthenes.cpp         | Sieve of Eratosthenes                 | Primes in range and Prime factors using sieve          |
 | 35                                  | x15-2_inclusionExclusion.cpp          | Inclusion Exclusion                   | Divisibility IncExcl, Euclid's GCD method              |
+| 26                                  | x16-1_RecursionIntro.cpp              | Intro to Recursion                    | Sum, factorial, power, fibonacci                       |
 
 ### Additional Notes :
 
@@ -67,6 +68,8 @@
 [+] 14 series has great questions on _Bit manipulation_. They are worth going through meticulously
 
 [+] 15.1 has great prime factorization technique via sieve of Eratosthenes
+
+[+] 16 series is all about recursion. Please try.
 
 ### Todo :
 
