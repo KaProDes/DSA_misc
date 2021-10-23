@@ -40,7 +40,7 @@ void TOH(int n, char s, char d, char h) {
   TOH(n - 1, h, d, s);
 }
 
-// [4] removeRepeatingRec() handler
+// [4] removeRepeatingRec() function
 
 string removeRepeatingRec(string s) {
   if (s.length() == 1)
@@ -52,6 +52,48 @@ string removeRepeatingRec(string s) {
   }
   // cout << s << endl;
   return s;
+}
+
+// [5] moveAllXToEnd() function
+
+string moveAllXToEnd(string s) {
+  if (s == "")
+    return "";
+
+  if (s[0] == 'x')
+    return moveAllXToEnd(s.substr(1)) + 'x';
+  else
+    return s[0] + moveAllXToEnd(s.substr(1));
+}
+
+// [6] printAllSubstring() function
+
+void printAllSubseq(string s, string ans) {
+  if (s.length() == 0) {
+    cout << ans << " ";
+    return;
+  }
+  char ch = s[0];
+  string restString = s.substr(1);
+
+  printAllSubseq(restString, ans);
+  printAllSubseq(restString, ans + ch);
+}
+
+// [8] keypadTranslate() function
+
+void keypadTranslate(string s, string ans, string keypadArr[]) {
+  if (s.length() == 0) {
+    cout << ans << " ";
+    return;
+  }
+  char ch = s[0];
+  string code = keypadArr[ch - '0'];
+  string restOfString = s.substr(1);
+
+  for (int i = 0; i < code.length(); i++) {
+    keypadTranslate(restOfString, ans + code[i], keypadArr);
+  }
 }
 
 int main() {
@@ -94,7 +136,35 @@ int main() {
   // removeRepeatingRec() handler
   string s1 = "aaaabbbeeecdddd";
   string revs1 = removeRepeatingRec(s1);
-  cout << "The duplicate eliminated form of " << s1 << " is " << revs1;
+  cout << "The duplicate eliminated form of " << s1 << " is " << revs1 << endl;
 
+  // [5] move all x's to the end of the string recursively
+  /*
+    Eg :  init  : aaxbfxexedxaax
+          final : aabfeedaaxxxxx
+  */
+
+  // moveAllXToEnd() handler
+  s1 = "aaxbfxexedxaax";
+  string mods1 = moveAllXToEnd(s1);
+  cout << "The x modified form of " << s1 << " is " << mods1 << endl;
+
+  // [6] recursively print all subsequences of a given string
+  /*
+    Eg : ABC
+          prints : _,A,B,C,AB,BC,AC,ABC
+  */
+
+  // printAllSubseq() handler
+  printAllSubseq("ABC", "");
+
+  // [7] Subsequence with ASCII code (Not completed)
+  cout << endl;
+  // [8] Keypad string output
+  string keypadArr[] = {"",    "./",  "abc",  "def", "ghi",
+                        "jkl", "mno", "pqrs", "tuv", "wxyz"};
+  string numInput = "24";
+
+  keypadTranslate(numInput, "", keypadArr);
   return 0;
 }

@@ -45,8 +45,9 @@
 | 35                                  | x15-2_inclusionExclusion.cpp          | Inclusion Exclusion                   | Divisibility IncExcl, Euclid's GCD method                         |
 | 36                                  | x16-1_RecursionIntro.cpp              | Intro to Recursion                    | Sum, factorial, power, fibonacci                                  |
 | 37                                  | x16-2_recursionChallenge.cpp          | Recursion Challenges -1               | SortedArray, Print natural numbers, first/last ocurrence in array |
+| 38                                  | x16-3_recursionChallengeTwo.cpp       | Recursion Challenges -2               | 7 good problems on recursion (tricky)                             |
 
-### Additional Notes :
+## _Additional Notes_ :
 
 [+] For _passing array to function by value_ see 8.2
 
@@ -70,9 +71,9 @@
 
 [+] 15.1 has great prime factorization technique via sieve of Eratosthenes
 
-[+] 16 series is all about recursion. Please try. 16-2 last problem tricky :D
+[+] 16 series is all about recursion. Please try. 16-2 last problem tricky :D. 16-3 very tricky, please try ans trace
 
-### Todo :
+## _Todo_ :
 
 [+] Add the input.txt dump to most (if not all) code files after main() before 8.4
 
@@ -82,7 +83,9 @@
 
 [+] Refer 15.2 for GCD algo. Try to implement Prime factorization based algo for the same (Hint : 15.1)
 
-### Issues :
+[+] 16.3 One problem incomplete [7]
+
+## _Issues_ :
 
 [+] 8.5
 
