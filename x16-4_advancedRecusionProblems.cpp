@@ -87,7 +87,7 @@ int main() {
   string ansStr = "";
   allPermutationsStr(baseStr, ansStr);
 
-  // [2] all possible permutations of an array recursively
+  // [2] all the possible permutations of an array recursively
 
   /*Approach very similar to string*/
 
