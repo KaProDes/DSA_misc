@@ -46,6 +46,7 @@
 | 36                                  | x16-1_RecursionIntro.cpp              | Intro to Recursion                    | Sum, factorial, power, fibonacci                                  |
 | 37                                  | x16-2_recursionChallenge.cpp          | Recursion Challenges -1               | SortedArray, Print natural numbers, first/last ocurrence in array |
 | 38                                  | x16-3_recursionChallengeTwo.cpp       | Recursion Challenges -2               | 7 good problems on recursion (tricky)                             |
+| 39                                  | x16-4_advancedRecusionProblems.cpp    | Advanced Recursion Problems           | String Permute, Array Permute, Row and Grid paths                 |
 
 ## _Additional Notes_ :
 
@@ -83,7 +84,7 @@
 
 [+] Refer 15.2 for GCD algo. Try to implement Prime factorization based algo for the same (Hint : 15.1)
 
-[+] 16.3 One problem incomplete [7]
+[+] 16.3 One problem incomplete [7] 16.4 One problem incomplete [2]
 
 ## _Issues_ :
 
